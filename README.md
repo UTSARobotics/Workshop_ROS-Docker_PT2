@@ -1,14 +1,4 @@
 # __Mac/Linux ROS2 Instructions__
-## Run test docker container on windows
-```
-docker run -it --rm \
-  --net=host \
-  -e DISPLAY=$DISPLAY \
-  -e QT_QPA_PLATFORM=xcb \
-  -v /tmp/.X11-unix:/tmp/.X11-unix \
-  utsarobotics/ros2-humble:1.0.0 \
-  bash
-```
 ##  Create a Docker Network
 ```
 Docker network create ros2-net
@@ -42,7 +32,7 @@ ros2 pkg executables turtlesim
 ```
 ros2 run turtlesim turtlesim_node
 ```
-## Open a new terminal/docker container with the same docker network
+## Open a **new terminal/docker-container** with the same docker network
 ```
 docker run -it \
   --rm \
