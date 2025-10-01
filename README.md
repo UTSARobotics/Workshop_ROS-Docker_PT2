@@ -12,6 +12,7 @@ docker run -it --rm \
 ##  Create a Docker Network
 ```
 Docker network create ros2-net
+
 ```
 ##  Create a Docker Container connected to the Docker Network
 ```
@@ -22,11 +23,13 @@ docker run -it \
   -e QT_QPA_PLATFORM=xcb \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   utsarobotics/ros2-humble:1.0.0 \
-  bash```
+  bash
+```
 ## Info Commands
 #### See what packages are in your ROS2
 ```
 ros2 pkg list
+
 ```
 ####  See what executables are in your ROS2
 ```
