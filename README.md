@@ -1,4 +1,4 @@
-# __MAC-OS/Linux ROS2 Instructions__
+# __Mac/Linux ROS2 Instructions__
 ## Run test docker container on windows
 ```
 docker run -it --rm \
