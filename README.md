@@ -1,7 +1,7 @@
 # __Mac/Linux ROS2 Instructions__
 ##  Create a Docker Network
 ```
-Docker network create ros2-net
+docker network create ros2-net
 ```
 ##  Create a Docker Container connected to the Docker Network
 ```
